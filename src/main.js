@@ -9,7 +9,7 @@ import zhLocale from 'element-ui/lib/locale/lang/zh-CN';
 import App from './App';
 import router from './router';
 
-Vue.use(ElementUI);
+Vue.use(VueI18n);
 
 const messages = {
   en: {
@@ -27,7 +27,7 @@ const i18n = new VueI18n({
   messages, // set locale messages
 });
 
-Vue.use(Element, {
+Vue.use(ElementUI, {
   i18n: (key, value) => i18n.t(key, value),
 });
 
