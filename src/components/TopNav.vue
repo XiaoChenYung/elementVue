@@ -1,6 +1,8 @@
 <template>
   <div class="top-nav">
-
+    <el-row class="content">
+      <el-col :span="12"></el-col>
+    </el-row>
   </div>
 </template>
 
@@ -14,6 +16,7 @@ export default {
   .top-nav {
     height: 80px;
     width: 1920px;
+    margin: 0 auto;
     background: darkgray;
   }
 </style>

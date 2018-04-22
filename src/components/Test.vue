@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="el-container">
     <top-nav></top-nav>
   </div>
 </template>
@@ -23,6 +23,6 @@ export default {
 };
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+  @import "../common.scss";
 </style>
